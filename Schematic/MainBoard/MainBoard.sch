@@ -1,0 +1,642 @@
+v 20130925 2
+C 0 0 0 0 0 title-B.sym
+C 2700 5800 1 0 0 DS1307-1.sym
+{
+T 4400 7900 5 10 1 1 0 6 1
+refdes=U?
+T 3000 8250 5 10 0 0 0 0 1
+device=ds1307
+T 3000 8450 5 10 0 0 0 0 1
+footprint=DIP8
+}
+C 5800 8800 1 0 0 gnd-1.sym
+C 2400 5700 1 0 0 gnd-1.sym
+N 2700 6200 2300 6200 4
+N 4700 7400 5800 7400 4
+N 10900 5600 11900 5600 4
+{
+T 11800 5750 5 10 1 1 180 0 1
+netname=SCL
+}
+N 10900 5800 11900 5800 4
+{
+T 11800 5950 5 10 1 1 180 0 1
+netname=SDA
+}
+N 4700 6200 6400 6200 4
+{
+T 5900 6200 5 10 1 1 0 0 1
+netname=SDA
+}
+N 4700 6600 6400 6600 4
+{
+T 5900 6600 5 10 1 1 0 0 1
+netname=SCL
+}
+N 5800 6700 5800 6200 4
+T 11300 700 9 45 1 0 0 0 1
+MainBoard
+N 10900 5400 11900 5400 4
+{
+T 11800 5550 5 10 1 1 180 0 1
+netname=RESET
+}
+N 2300 7400 2700 7400 4
+N 2300 7000 2700 7000 4
+C 2500 7000 1 90 0 crystal-1.sym
+{
+T 2000 7200 5 10 0 0 90 0 1
+device=CRYSTAL
+T 2250 7500 5 10 1 1 180 0 1
+refdes=Y?
+T 1800 7200 5 10 0 0 90 0 1
+symversion=0.1
+T 1300 6900 5 10 1 1 0 0 1
+value=32.768 kHz
+}
+C 2100 6600 1 270 0 battery-1.sym
+{
+T 3000 6300 5 10 0 0 270 0 1
+device=BATTERY
+T 2000 6550 5 10 1 1 0 0 1
+refdes=B?
+T 3400 6300 5 10 0 0 270 0 1
+symversion=0.1
+T 2000 6200 5 10 1 1 0 0 1
+value=3V
+}
+N 2300 6600 2700 6600 4
+N 2500 6000 2500 6200 4
+C 5300 6700 1 90 0 resistor-1.sym
+{
+T 4950 7100 5 10 0 0 90 0 1
+device=RESISTOR
+T 5100 7300 5 10 1 1 180 0 1
+refdes=R?
+T 4800 7000 5 10 1 1 0 0 1
+value=10k
+}
+C 5900 6700 1 90 0 resistor-1.sym
+{
+T 5550 7100 5 10 0 0 90 0 1
+device=RESISTOR
+T 5700 7300 5 10 1 1 180 0 1
+refdes=R?
+T 5400 7000 5 10 1 1 0 0 1
+value=10k
+}
+N 5200 6700 5200 6600 4
+C 13200 7100 1 90 0 resistor-1.sym
+{
+T 12850 7500 5 10 0 0 90 0 1
+device=RESISTOR
+T 13000 7800 5 10 1 1 180 0 1
+refdes=R?
+T 13000 7600 5 10 1 1 180 0 1
+value=10k
+}
+C 6300 9200 1 90 0 capacitor-1.sym
+{
+T 5600 9400 5 10 0 0 90 0 1
+device=CAPACITOR
+T 6200 9900 5 10 1 1 0 0 1
+refdes=C?
+T 5400 9400 5 10 0 0 90 0 1
+symversion=0.1
+T 6200 9700 5 10 1 1 0 0 1
+value=100n
+}
+C 5900 9200 1 90 0 capacitor-1.sym
+{
+T 5200 9400 5 10 0 0 90 0 1
+device=CAPACITOR
+T 5600 10000 5 10 1 1 180 0 1
+refdes=C?
+T 5000 9400 5 10 0 0 90 0 1
+symversion=0.1
+T 5300 9700 5 10 1 1 0 0 1
+value=47u
+}
+N 5700 9900 6100 9900 4
+N 5700 9200 6100 9200 4
+N 5900 9100 5900 9200 4
+C 13300 6400 1 90 0 capacitor-1.sym
+{
+T 12600 6600 5 10 0 0 90 0 1
+device=CAPACITOR
+T 13000 6600 5 10 1 1 180 0 1
+refdes=C?
+T 12400 6600 5 10 0 0 90 0 1
+symversion=0.1
+T 13000 6400 5 10 1 1 180 0 1
+value=100u
+}
+C 13200 7100 1 0 0 button-1.sym
+{
+T 13400 7600 5 10 0 0 0 0 1
+device=BUTTON
+T 13700 7200 5 10 1 1 0 0 1
+refdes=SW?
+T 13400 7800 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 13000 6100 1 0 0 gnd-1.sym
+C 14300 7000 1 90 0 gnd-1.sym
+N 13900 7100 14000 7100 4
+N 12300 7100 13200 7100 4
+{
+T 12400 7100 5 10 1 1 0 0 1
+netname=RESET
+}
+C 10900 4400 1 0 0 capacitor-1.sym
+{
+T 11100 5100 5 10 0 0 0 0 1
+device=CAPACITOR
+T 10900 4700 5 10 1 1 0 0 1
+refdes=C?
+T 11100 5300 5 10 0 0 0 0 1
+symversion=0.1
+T 11400 4700 5 10 1 1 0 0 1
+value=100n
+}
+C 10900 3900 1 0 0 capacitor-1.sym
+{
+T 11100 4600 5 10 0 0 0 0 1
+device=CAPACITOR
+T 10900 4200 5 10 1 1 0 0 1
+refdes=C?
+T 11100 4800 5 10 0 0 0 0 1
+symversion=0.1
+T 11400 4200 5 10 1 1 0 0 1
+value=100n
+}
+C 8300 3300 1 0 0 ATmega8-1.sym
+{
+T 10600 7900 5 10 1 1 0 6 1
+refdes=U?
+T 8400 8900 5 10 0 0 0 0 1
+device=ATmega8
+}
+C 11900 4000 1 90 0 gnd-1.sym
+C 11900 4500 1 90 0 gnd-1.sym
+N 11300 3700 10900 3700 4
+N 10900 3700 10900 4100 4
+C 11300 3900 1 270 0 vcc-2.sym
+C 5000 7400 1 0 0 vcc-2.sym
+C 5700 9900 1 0 0 vcc-2.sym
+C 12900 7800 1 0 0 vcc-2.sym
+N 10900 6600 11900 6600 4
+{
+T 11800 6750 5 10 1 1 180 0 1
+netname=Minutes
+}
+N 10900 6400 11900 6400 4
+{
+T 11800 6550 5 10 1 1 180 0 1
+netname=Hours
+}
+C 8200 3500 1 90 0 crystal-1.sym
+{
+T 7700 3700 5 10 0 0 90 0 1
+device=CRYSTAL
+T 8250 3700 5 10 1 1 0 0 1
+refdes=Y?
+T 7500 3700 5 10 0 0 90 0 1
+symversion=0.1
+T 7800 3300 5 10 1 1 0 0 1
+value=8MHz
+}
+C 7300 3300 1 0 0 capacitor-1.sym
+{
+T 7500 4000 5 10 0 0 0 0 1
+device=CAPACITOR
+T 7300 3300 5 10 1 1 0 0 1
+refdes=C?
+T 7500 4200 5 10 0 0 0 0 1
+symversion=0.1
+T 7300 3100 5 10 1 1 0 0 1
+value=22p
+}
+C 7300 3700 1 0 0 capacitor-1.sym
+{
+T 7500 4400 5 10 0 0 0 0 1
+device=CAPACITOR
+T 7300 4000 5 10 1 1 0 0 1
+refdes=C?
+T 7500 4600 5 10 0 0 0 0 1
+symversion=0.1
+T 7700 4000 5 10 1 1 0 0 1
+value=22p
+}
+C 6900 3800 1 270 0 gnd-1.sym
+N 7300 3500 7300 3900 4
+N 7200 3700 7300 3700 4
+N 8300 3500 8000 3500 4
+N 8300 3900 8000 3900 4
+T 13900 400 9 10 1 0 0 0 1
+0.1A
+T 13900 100 9 10 1 0 0 0 1
+aptinyple
+N 8300 5200 6800 5200 4
+{
+T 6900 5200 5 10 1 1 0 0 1
+netname=TempOUT
+}
+N 8300 5000 6800 5000 4
+{
+T 6900 5000 5 10 1 1 0 0 1
+netname=Alarm
+}
+N 8300 7200 6800 7200 4
+{
+T 6900 7200 5 10 1 1 0 0 1
+netname=Buttons1
+}
+N 8300 7000 6800 7000 4
+{
+T 6900 7000 5 10 1 1 0 0 1
+netname=Buttons2
+}
+N 10900 6200 11900 6200 4
+{
+T 11800 6350 5 10 1 1 180 0 1
+netname=Mode1
+}
+N 10900 6000 11900 6000 4
+{
+T 11800 6150 5 10 1 1 180 0 1
+netname=Mode2
+}
+N 8300 7600 6800 7600 4
+{
+T 6900 7600 5 10 1 1 0 0 1
+netname=AlarmStatus
+}
+N 8300 7400 6800 7400 4
+{
+T 6900 7400 5 10 1 1 0 0 1
+netname=TempIN
+}
+N 8300 6600 6800 6600 4
+{
+T 6900 6600 5 10 1 1 0 0 1
+netname=DS
+}
+N 8300 6400 6800 6400 4
+{
+T 6900 6400 5 10 1 1 0 0 1
+netname=SH
+}
+N 8300 6200 6800 6200 4
+{
+T 6900 6200 5 10 1 1 0 0 1
+netname=ST
+}
+N 8300 4800 6800 4800 4
+{
+T 6900 4800 5 10 1 1 0 0 1
+netname=MOSI
+}
+N 8300 4600 6800 4600 4
+{
+T 6900 4600 5 10 1 1 0 0 1
+netname=MISO
+}
+N 8300 4400 6800 4400 4
+{
+T 6900 4400 5 10 1 1 0 0 1
+netname=SCK
+}
+C 4700 2800 1 0 1 connector10-1.sym
+{
+T 4300 4100 5 10 1 1 0 0 1
+refdes=J?
+T 4400 7650 5 10 0 0 0 6 1
+device=CONNECTOR_5x2
+}
+N 4700 3800 6400 3800 4
+{
+T 6300 3800 5 10 1 1 0 6 1
+netname=MISO
+}
+N 4700 3600 6400 3600 4
+{
+T 6300 3600 5 10 1 1 0 6 1
+netname=SCK
+}
+N 4700 3400 6400 3400 4
+{
+T 6300 3400 5 10 1 1 0 6 1
+netname=RESET
+}
+N 4700 3000 6400 3000 4
+{
+T 6300 3000 5 10 1 1 0 6 1
+netname=MOSI
+}
+C 3700 3200 1 90 1 vcc-2.sym
+C 3100 3400 1 270 1 gnd-1.sym
+N 3600 3800 3600 3200 4
+N 3400 3500 3600 3500 4
+N 3700 3800 3600 3800 4
+N 3700 3600 3600 3600 4
+N 3700 3400 3600 3400 4
+N 3700 3200 3600 3200 4
+C 4700 4600 1 0 1 connector3-1.sym
+{
+T 4300 5500 5 10 1 1 0 0 1
+refdes=J?
+T 4400 6050 5 10 0 0 0 6 1
+device=CONNECTOR_3
+}
+T 4600 2600 9 10 1 0 0 6 1
+ISP Prog
+T 4000 5400 9 10 1 0 180 0 1
+DS18B20
+C 4800 5500 1 180 0 gnd-1.sym
+C 4900 4800 1 180 0 vcc-2.sym
+N 6400 5000 4700 5000 4
+{
+T 5700 5000 5 10 1 1 0 0 1
+netname=TempIN
+}
+C 13400 2700 1 0 0 connector14-1.sym
+{
+T 14200 5800 5 10 1 1 0 6 1
+refdes=J?
+T 13700 6350 5 10 0 0 0 0 1
+device=CONNECTOR_14
+}
+N 13400 5500 12300 5500 4
+{
+T 12400 5500 5 10 1 1 0 0 1
+netname=Minutes
+}
+N 13400 5300 12300 5300 4
+{
+T 12400 5300 5 10 1 1 0 0 1
+netname=Hours
+}
+N 13400 5100 12300 5100 4
+{
+T 12400 5100 5 10 1 1 0 0 1
+netname=Mode1
+}
+N 13400 4900 12300 4900 4
+{
+T 12400 4900 5 10 1 1 0 0 1
+netname=Mode2
+}
+N 13400 4700 12300 4700 4
+{
+T 12400 4700 5 10 1 1 0 0 1
+netname=Buttons1
+}
+N 13400 4500 12300 4500 4
+{
+T 12400 4500 5 10 1 1 0 0 1
+netname=Buttons2
+}
+N 13400 4300 12300 4300 4
+{
+T 12400 4300 5 10 1 1 0 0 1
+netname=AlarmStatus
+}
+N 13400 4100 12300 4100 4
+{
+T 12400 4100 5 10 1 1 0 0 1
+netname=Alarm
+}
+N 13400 3900 12300 3900 4
+{
+T 12400 3900 5 10 1 1 0 0 1
+netname=TempOUT
+}
+N 13400 3500 12300 3500 4
+{
+T 12400 3500 5 10 1 1 0 0 1
+netname=DS
+}
+N 13400 3100 12300 3100 4
+{
+T 12400 3100 5 10 1 1 0 0 1
+netname=SH
+}
+N 13400 2900 12300 2900 4
+{
+T 12400 2900 5 10 1 1 0 0 1
+netname=ST
+}
+C 10700 9300 1 0 0 connector2-1.sym
+{
+T 11100 10000 5 10 1 1 0 6 1
+refdes=J?
+T 11000 10950 5 10 0 0 0 0 1
+device=CONNECTOR_2
+}
+C 10400 9800 1 0 0 vcc-2.sym
+C 10500 9100 1 0 0 gnd-1.sym
+N 10600 9800 10600 9700 4
+N 10600 9700 10700 9700 4
+N 10700 9500 10600 9500 4
+N 10600 9500 10600 9400 4
+T 10800 9000 9 10 1 0 0 0 1
+PowerSource
+U 6600 7900 6600 2700 10 1
+U 6600 2700 12100 2700 10 0
+U 12100 2700 12100 7900 10 -1
+C 11900 5400 1 270 0 busripper-1.sym
+{
+T 12300 5400 5 8 0 0 270 0 1
+device=none
+}
+C 11900 5600 1 270 0 busripper-1.sym
+{
+T 12300 5600 5 8 0 0 270 0 1
+device=none
+}
+C 11900 5800 1 270 0 busripper-1.sym
+{
+T 12300 5800 5 8 0 0 270 0 1
+device=none
+}
+C 11900 6000 1 270 0 busripper-1.sym
+{
+T 12300 6000 5 8 0 0 270 0 1
+device=none
+}
+C 11900 6200 1 270 0 busripper-1.sym
+{
+T 12300 6200 5 8 0 0 270 0 1
+device=none
+}
+C 11900 6400 1 270 0 busripper-1.sym
+{
+T 12300 6400 5 8 0 0 270 0 1
+device=none
+}
+C 11900 6600 1 270 0 busripper-1.sym
+{
+T 12300 6600 5 8 0 0 270 0 1
+device=none
+}
+C 6800 7600 1 90 0 busripper-1.sym
+{
+T 6400 7600 5 8 0 0 90 0 1
+device=none
+}
+C 6800 7400 1 90 0 busripper-1.sym
+{
+T 6400 7400 5 8 0 0 90 0 1
+device=none
+}
+C 6800 7200 1 90 0 busripper-1.sym
+{
+T 6400 7200 5 8 0 0 90 0 1
+device=none
+}
+C 6800 7000 1 90 0 busripper-1.sym
+{
+T 6400 7000 5 8 0 0 90 0 1
+device=none
+}
+C 6800 6600 1 90 0 busripper-1.sym
+{
+T 6400 6600 5 8 0 0 90 0 1
+device=none
+}
+C 6800 6400 1 90 0 busripper-1.sym
+{
+T 6400 6400 5 8 0 0 90 0 1
+device=none
+}
+C 6800 6200 1 90 0 busripper-1.sym
+{
+T 6400 6200 5 8 0 0 90 0 1
+device=none
+}
+C 6400 6600 1 0 0 busripper-1.sym
+{
+T 6400 7000 5 8 0 0 0 0 1
+device=none
+}
+C 6400 6200 1 0 0 busripper-1.sym
+{
+T 6400 6600 5 8 0 0 0 0 1
+device=none
+}
+C 6400 5000 1 0 0 busripper-1.sym
+{
+T 6400 5400 5 8 0 0 0 0 1
+device=none
+}
+C 6400 3800 1 0 0 busripper-1.sym
+{
+T 6400 4200 5 8 0 0 0 0 1
+device=none
+}
+C 6400 3600 1 0 0 busripper-1.sym
+{
+T 6400 4000 5 8 0 0 0 0 1
+device=none
+}
+C 6400 3400 1 0 0 busripper-1.sym
+{
+T 6400 3800 5 8 0 0 0 0 1
+device=none
+}
+C 6400 3000 1 0 0 busripper-1.sym
+{
+T 6400 3400 5 8 0 0 0 0 1
+device=none
+}
+C 12300 7100 1 180 0 busripper-1.sym
+{
+T 12300 6700 5 8 0 0 180 0 1
+device=none
+}
+C 12300 5500 1 180 0 busripper-1.sym
+{
+T 12300 5100 5 8 0 0 180 0 1
+device=none
+}
+C 12300 5300 1 180 0 busripper-1.sym
+{
+T 12300 4900 5 8 0 0 180 0 1
+device=none
+}
+C 12300 5100 1 180 0 busripper-1.sym
+{
+T 12300 4700 5 8 0 0 180 0 1
+device=none
+}
+C 12300 4900 1 180 0 busripper-1.sym
+{
+T 12300 4500 5 8 0 0 180 0 1
+device=none
+}
+C 12300 4700 1 180 0 busripper-1.sym
+{
+T 12300 4300 5 8 0 0 180 0 1
+device=none
+}
+C 12300 4500 1 180 0 busripper-1.sym
+{
+T 12300 4100 5 8 0 0 180 0 1
+device=none
+}
+C 12300 4300 1 180 0 busripper-1.sym
+{
+T 12300 3900 5 8 0 0 180 0 1
+device=none
+}
+C 12300 4100 1 180 0 busripper-1.sym
+{
+T 12300 3700 5 8 0 0 180 0 1
+device=none
+}
+C 12300 3900 1 180 0 busripper-1.sym
+{
+T 12300 3500 5 8 0 0 180 0 1
+device=none
+}
+C 12300 3500 1 180 0 busripper-1.sym
+{
+T 12300 3100 5 8 0 0 180 0 1
+device=none
+}
+C 12300 3100 1 180 0 busripper-1.sym
+{
+T 12300 2700 5 8 0 0 180 0 1
+device=none
+}
+C 12300 2900 1 180 0 busripper-1.sym
+{
+T 12300 2500 5 8 0 0 180 0 1
+device=none
+}
+C 6800 5200 1 90 0 busripper-1.sym
+{
+T 6400 5200 5 8 0 0 90 0 1
+device=none
+}
+C 6800 5000 1 90 0 busripper-1.sym
+{
+T 6400 5000 5 8 0 0 90 0 1
+device=none
+}
+C 6800 4800 1 90 0 busripper-1.sym
+{
+T 6400 4800 5 8 0 0 90 0 1
+device=none
+}
+C 6800 4600 1 90 0 busripper-1.sym
+{
+T 6400 4600 5 8 0 0 90 0 1
+device=none
+}
+C 6800 4400 1 90 0 busripper-1.sym
+{
+T 6400 4400 5 8 0 0 90 0 1
+device=none
+}
