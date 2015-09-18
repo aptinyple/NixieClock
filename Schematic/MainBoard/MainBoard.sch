@@ -280,17 +280,17 @@ netname=TempIN
 N 8300 6600 6800 6600 4
 {
 T 6900 6600 5 10 1 1 0 0 1
-netname=DS
+netname=SER
 }
 N 8300 6400 6800 6400 4
 {
 T 6900 6400 5 10 1 1 0 0 1
-netname=SH
+netname=SCK
 }
 N 8300 6200 6800 6200 4
 {
 T 6900 6200 5 10 1 1 0 0 1
-netname=ST
+netname=RCK
 }
 N 8300 4800 6800 4800 4
 {
@@ -415,17 +415,17 @@ netname=TempOUT
 N 13400 3500 12300 3500 4
 {
 T 12400 3500 5 10 1 1 0 0 1
-netname=DS
+netname=SER
 }
 N 13400 3100 12300 3100 4
 {
 T 12400 3100 5 10 1 1 0 0 1
-netname=SH
+netname=SCK
 }
 N 13400 2900 12300 2900 4
 {
 T 12400 2900 5 10 1 1 0 0 1
-netname=ST
+netname=RCK
 }
 C 10700 9300 1 0 0 connector2-1.sym
 {
