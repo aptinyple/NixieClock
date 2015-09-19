@@ -3,7 +3,7 @@ C 0 0 0 0 0 title-B.sym
 C 2700 5800 1 0 0 DS1307-1.sym
 {
 T 4400 7900 5 10 1 1 0 6 1
-refdes=U?
+refdes=U1
 T 3000 8250 5 10 0 0 0 0 1
 device=ds1307
 T 3000 8450 5 10 0 0 0 0 1
@@ -48,7 +48,7 @@ C 2500 7000 1 90 0 crystal-1.sym
 T 2000 7200 5 10 0 0 90 0 1
 device=CRYSTAL
 T 2250 7500 5 10 1 1 180 0 1
-refdes=Y?
+refdes=Y1
 T 1800 7200 5 10 0 0 90 0 1
 symversion=0.1
 T 1300 6900 5 10 1 1 0 0 1
@@ -59,7 +59,7 @@ C 2100 6600 1 270 0 battery-1.sym
 T 3000 6300 5 10 0 0 270 0 1
 device=BATTERY
 T 2000 6550 5 10 1 1 0 0 1
-refdes=B?
+refdes=B1
 T 3400 6300 5 10 0 0 270 0 1
 symversion=0.1
 T 2000 6200 5 10 1 1 0 0 1
@@ -72,7 +72,7 @@ C 5300 6700 1 90 0 resistor-1.sym
 T 4950 7100 5 10 0 0 90 0 1
 device=RESISTOR
 T 5100 7300 5 10 1 1 180 0 1
-refdes=R?
+refdes=R2
 T 4800 7000 5 10 1 1 0 0 1
 value=10k
 }
@@ -81,7 +81,7 @@ C 5900 6700 1 90 0 resistor-1.sym
 T 5550 7100 5 10 0 0 90 0 1
 device=RESISTOR
 T 5700 7300 5 10 1 1 180 0 1
-refdes=R?
+refdes=R3
 T 5400 7000 5 10 1 1 0 0 1
 value=10k
 }
@@ -90,9 +90,9 @@ C 13200 7100 1 90 0 resistor-1.sym
 {
 T 12850 7500 5 10 0 0 90 0 1
 device=RESISTOR
-T 13000 7800 5 10 1 1 180 0 1
-refdes=R?
-T 13000 7600 5 10 1 1 180 0 1
+T 12900 7900 5 10 1 1 180 0 1
+refdes=R1
+T 12900 7700 5 10 1 1 180 0 1
 value=10k
 }
 C 6300 9200 1 90 0 capacitor-1.sym
@@ -100,7 +100,7 @@ C 6300 9200 1 90 0 capacitor-1.sym
 T 5600 9400 5 10 0 0 90 0 1
 device=CAPACITOR
 T 6200 9900 5 10 1 1 0 0 1
-refdes=C?
+refdes=C2
 T 5400 9400 5 10 0 0 90 0 1
 symversion=0.1
 T 6200 9700 5 10 1 1 0 0 1
@@ -111,7 +111,7 @@ C 5900 9200 1 90 0 capacitor-1.sym
 T 5200 9400 5 10 0 0 90 0 1
 device=CAPACITOR
 T 5600 10000 5 10 1 1 180 0 1
-refdes=C?
+refdes=C1
 T 5000 9400 5 10 0 0 90 0 1
 symversion=0.1
 T 5300 9700 5 10 1 1 0 0 1
@@ -125,7 +125,7 @@ C 13300 6400 1 90 0 capacitor-1.sym
 T 12600 6600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 13000 6600 5 10 1 1 180 0 1
-refdes=C?
+refdes=C3
 T 12400 6600 5 10 0 0 90 0 1
 symversion=0.1
 T 13000 6400 5 10 1 1 180 0 1
@@ -135,8 +135,8 @@ C 13200 7100 1 0 0 button-1.sym
 {
 T 13400 7600 5 10 0 0 0 0 1
 device=BUTTON
-T 13700 7200 5 10 1 1 0 0 1
-refdes=SW?
+T 13600 7300 5 10 1 1 0 0 1
+refdes=SW1
 T 13400 7800 5 10 0 0 0 0 1
 symversion=0.1
 }
@@ -153,7 +153,7 @@ C 10900 4400 1 0 0 capacitor-1.sym
 T 11100 5100 5 10 0 0 0 0 1
 device=CAPACITOR
 T 10900 4700 5 10 1 1 0 0 1
-refdes=C?
+refdes=C4
 T 11100 5300 5 10 0 0 0 0 1
 symversion=0.1
 T 11400 4700 5 10 1 1 0 0 1
@@ -164,7 +164,7 @@ C 10900 3900 1 0 0 capacitor-1.sym
 T 11100 4600 5 10 0 0 0 0 1
 device=CAPACITOR
 T 10900 4200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C5
 T 11100 4800 5 10 0 0 0 0 1
 symversion=0.1
 T 11400 4200 5 10 1 1 0 0 1
@@ -173,7 +173,7 @@ value=100n
 C 8300 3300 1 0 0 ATmega8-1.sym
 {
 T 10600 7900 5 10 1 1 0 6 1
-refdes=U?
+refdes=U2
 T 8400 8900 5 10 0 0 0 0 1
 device=ATmega8
 }
@@ -200,7 +200,7 @@ C 8200 3500 1 90 0 crystal-1.sym
 T 7700 3700 5 10 0 0 90 0 1
 device=CRYSTAL
 T 8250 3700 5 10 1 1 0 0 1
-refdes=Y?
+refdes=Y2
 T 7500 3700 5 10 0 0 90 0 1
 symversion=0.1
 T 7800 3300 5 10 1 1 0 0 1
@@ -211,7 +211,7 @@ C 7300 3300 1 0 0 capacitor-1.sym
 T 7500 4000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 7300 3300 5 10 1 1 0 0 1
-refdes=C?
+refdes=C7
 T 7500 4200 5 10 0 0 0 0 1
 symversion=0.1
 T 7300 3100 5 10 1 1 0 0 1
@@ -222,7 +222,7 @@ C 7300 3700 1 0 0 capacitor-1.sym
 T 7500 4400 5 10 0 0 0 0 1
 device=CAPACITOR
 T 7300 4000 5 10 1 1 0 0 1
-refdes=C?
+refdes=C6
 T 7500 4600 5 10 0 0 0 0 1
 symversion=0.1
 T 7700 4000 5 10 1 1 0 0 1
@@ -310,7 +310,7 @@ netname=SCK
 C 4700 2800 1 0 1 connector10-1.sym
 {
 T 4300 4100 5 10 1 1 0 0 1
-refdes=J?
+refdes=J4
 T 4400 7650 5 10 0 0 0 6 1
 device=CONNECTOR_5x2
 }
@@ -345,7 +345,7 @@ N 3700 3200 3600 3200 4
 C 4700 4600 1 0 1 connector3-1.sym
 {
 T 4300 5500 5 10 1 1 0 0 1
-refdes=J?
+refdes=J3
 T 4400 6050 5 10 0 0 0 6 1
 device=CONNECTOR_3
 }
@@ -363,7 +363,7 @@ netname=TempIN
 C 13400 2700 1 0 0 connector14-1.sym
 {
 T 14200 5800 5 10 1 1 0 6 1
-refdes=J?
+refdes=J2
 T 13700 6350 5 10 0 0 0 0 1
 device=CONNECTOR_14
 }
@@ -430,7 +430,7 @@ netname=RCK
 C 10700 9300 1 0 0 connector2-1.sym
 {
 T 11100 10000 5 10 1 1 0 6 1
-refdes=J?
+refdes=J1
 T 11000 10950 5 10 0 0 0 0 1
 device=CONNECTOR_2
 }

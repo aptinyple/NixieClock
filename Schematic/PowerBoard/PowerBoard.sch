@@ -7,22 +7,22 @@ T 8500 100 9 10 1 0 0 0 1
 aptinyple
 C 1400 7100 1 0 1 connector2-1.sym
 {
-T 1100 7800 5 10 1 1 0 0 1
-refdes=J?
+T 900 7700 5 10 1 1 0 0 1
+refdes=J1
 T 1100 8750 5 10 0 0 0 6 1
 device=CONNECTOR_2
 }
 C 2300 6400 1 0 0 transformer-1.sym
 {
-T 2600 7700 5 10 1 1 0 0 1
-refdes=T?
+T 3100 7700 5 10 1 1 0 0 1
+refdes=T1
 T 2600 7700 5 10 0 0 0 0 1
 device=transformer
 }
 C 6800 2900 1 0 0 MC34063-1.sym
 {
 T 8600 4300 5 10 1 1 0 6 1
-refdes=U?
+refdes=U2
 T 7100 4900 5 10 0 0 0 0 1
 footprint=DIP8
 T 7100 4500 5 10 0 0 0 0 1
@@ -34,15 +34,15 @@ C 7900 6900 1 0 0 lm7805-1.sym
 {
 T 9500 8200 5 10 0 0 0 0 1
 device=7805
-T 7500 7100 5 10 1 1 0 6 1
-refdes=U?
+T 9000 7900 5 10 1 1 0 0 1
+refdes=U1
 }
 C 9000 2400 1 90 0 resistor-1.sym
 {
 T 8650 2800 5 10 0 0 90 0 1
 device=RESISTOR
 T 8700 2700 5 10 1 1 180 0 1
-refdes=R?
+refdes=R4
 T 8700 2500 5 10 1 1 180 0 1
 value=1k
 T 8700 2300 5 10 1 1 180 0 1
@@ -52,8 +52,8 @@ C 1500 7400 1 0 0 fuse-1.sym
 {
 T 1700 7950 5 10 0 0 0 0 1
 device=FUSE
-T 1700 7700 5 10 1 1 0 0 1
-refdes=F?
+T 1900 7600 5 10 1 1 0 0 1
+refdes=F1
 T 1700 8150 5 10 0 0 0 0 1
 symversion=0.1
 }
@@ -64,7 +64,7 @@ C 7300 4500 1 0 0 inductor-1.sym
 T 7500 5000 5 10 0 0 0 0 1
 device=INDUCTOR
 T 7400 4900 5 10 1 1 0 0 1
-refdes=L?
+refdes=L1
 T 7500 5200 5 10 0 0 0 0 1
 symversion=0.1
 T 7700 4900 5 10 1 1 0 0 1
@@ -79,8 +79,8 @@ N 1500 7300 1500 6500 4
 N 1500 6500 2300 6500 4
 C 3900 6300 1 0 0 bridge-1.sym
 {
-T 3900 7800 5 10 1 1 0 0 1
-refdes=VD?
+T 5000 7800 5 10 1 1 0 0 1
+refdes=VD1
 T 4100 7600 5 10 0 0 0 0 1
 device=bridge
 T 4100 8000 5 10 0 0 0 0 1
@@ -98,7 +98,7 @@ C 7000 7300 1 270 0 capacitor-2.sym
 T 7700 7100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 6800 7200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C3
 T 7900 7100 5 10 0 0 270 0 1
 symversion=0.1
 T 6500 7000 5 10 1 1 0 0 1
@@ -109,7 +109,7 @@ C 7400 7300 1 270 0 capacitor-2.sym
 T 8100 7100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 7700 7300 5 10 1 1 0 0 1
-refdes=C?
+refdes=C1
 T 8300 7100 5 10 0 0 270 0 1
 symversion=0.1
 T 7700 7100 5 10 1 1 0 0 1
@@ -123,7 +123,7 @@ C 9800 7300 1 270 0 capacitor-2.sym
 T 10500 7100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 9600 7200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C4
 T 10700 7100 5 10 0 0 270 0 1
 symversion=0.1
 T 9300 7000 5 10 1 1 0 0 1
@@ -133,11 +133,11 @@ C 10200 7300 1 270 0 capacitor-2.sym
 {
 T 10900 7100 5 10 0 0 270 0 1
 device=CAPACITOR
-T 10500 7300 5 10 1 1 0 0 1
-refdes=C?
+T 10600 7200 5 10 1 1 0 0 1
+refdes=C2
 T 11100 7100 5 10 0 0 270 0 1
 symversion=0.1
-T 10500 7100 5 10 1 1 0 0 1
+T 10600 7000 5 10 1 1 0 0 1
 value=0.1u
 }
 N 9500 7500 11100 7500 4
@@ -153,17 +153,17 @@ C 9000 3000 1 0 0 resistor-1.sym
 {
 T 9400 3350 5 10 0 0 0 0 1
 device=RESISTOR
-T 9100 3200 5 10 1 1 0 0 1
-refdes=R?
+T 9300 3200 5 10 1 1 0 0 1
+refdes=R3
 T 9200 2800 5 10 1 1 0 0 1
 value=91k
-T 9200 2600 5 10 1 1 0 0 1
+T 9100 2600 5 10 1 1 0 0 1
 voltage=115V
 }
 C 9700 2100 1 0 0 gnd-1.sym
-N 9700 3100 11000 3100 4
+N 9700 3100 11200 3100 4
 {
-T 10000 3100 5 10 1 1 0 0 1
+T 10600 3100 5 10 1 1 0 0 1
 netname=+170V
 }
 C 8900 3900 1 0 0 resistor-1.sym
@@ -171,7 +171,7 @@ C 8900 3900 1 0 0 resistor-1.sym
 T 9300 4250 5 10 0 0 0 0 1
 device=RESISTOR
 T 9000 4300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R1
 T 9000 4100 5 10 1 1 0 0 1
 value=180
 }
@@ -182,7 +182,7 @@ C 9800 3600 1 0 0 resistor-1.sym
 T 10200 3950 5 10 0 0 0 0 1
 device=RESISTOR
 T 9900 4000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R2
 T 9900 3800 5 10 1 1 0 0 1
 value=0.27
 }
@@ -197,13 +197,13 @@ C 10500 3200 1 0 0 capacitor-2.sym
 T 10700 3900 5 10 0 0 0 0 1
 device=CAPACITOR
 T 10900 3600 5 10 1 1 0 0 1
-refdes=C?
+refdes=C5
 T 10700 4100 5 10 0 0 0 0 1
 symversion=0.1
 T 10900 3400 5 10 1 1 0 0 1
 value=100u
 }
-C 11100 3100 1 0 0 gnd-1.sym
+C 11300 3100 1 0 0 gnd-1.sym
 N 9600 4600 8200 4600 4
 N 7300 4600 5700 4600 4
 C 6300 3400 1 270 0 capacitor-2.sym
@@ -211,7 +211,7 @@ C 6300 3400 1 270 0 capacitor-2.sym
 T 7000 3200 5 10 0 0 270 0 1
 device=CAPACITOR
 T 6400 3500 5 10 1 1 180 0 1
-refdes=C?
+refdes=C6
 T 7200 3200 5 10 0 0 270 0 1
 symversion=0.1
 T 6400 3300 5 10 1 1 180 0 1
@@ -223,7 +223,7 @@ C 9600 3100 1 270 0 capacitor-2.sym
 T 10300 2900 5 10 0 0 270 0 1
 device=CAPACITOR
 T 10000 2900 5 10 1 1 0 0 1
-refdes=C?
+refdes=C7
 T 10500 2900 5 10 0 0 270 0 1
 symversion=0.1
 T 10000 2700 5 10 1 1 0 0 1
@@ -239,7 +239,7 @@ C 5500 3800 1 270 0 schottky-1.sym
 T 6000 3400 5 10 0 0 270 0 1
 device=DIODE
 T 5300 3700 5 10 1 1 0 0 1
-refdes=D?
+refdes=D1
 T 4900 3500 5 10 1 1 0 0 1
 device=1N5819
 }
@@ -258,15 +258,15 @@ C 5600 6200 1 0 0 gnd-1.sym
 N 3900 7500 3800 7500 4
 C 900 3900 1 0 0 connector2-1.sym
 {
-T 1200 4600 5 10 1 1 0 6 1
-refdes=J?
+T 1300 4500 5 10 1 1 0 0 1
+refdes=J2
 T 1200 5550 5 10 0 0 0 0 1
 device=CONNECTOR_2
 }
 C 3000 3700 1 0 0 connector3-1.sym
 {
-T 3300 4600 5 10 1 1 0 6 1
-refdes=J?
+T 3400 4500 5 10 1 1 0 0 1
+refdes=J3
 T 3300 5150 5 10 0 0 0 0 1
 device=CONNECTOR_3
 }
@@ -287,9 +287,10 @@ N 3000 4100 2500 4100 4
 T 2500 4100 5 10 1 1 0 0 1
 netname=+5V
 }
-T 700 4800 9 10 1 0 0 0 1
+T 700 4700 9 10 1 0 0 0 1
 To MainBoard
-T 2800 4800 9 10 1 0 0 0 1
+T 2800 4700 9 10 1 0 0 0 1
 To IndicatorBoard
 N 5700 6500 5600 6500 4
 C 0 0 0 0 0 title-A4.sym
+N 11400 3400 11200 3400 4
