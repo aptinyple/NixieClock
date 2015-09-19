@@ -9,12 +9,12 @@ Steps of Nixie Clock creation
   - [ ] Create design concept (shape, indicators placement, etc.)
 
 * TODO Make the clock design:
-** TODO Make schematic using  gEDA gschem [1/3]:
+** TODO Make schematic using  gEDA gschem [2/3]:
    - [X] Learn how to use gEDA gschem
    - [ ] Make and/or find all needed electronic components symbols
-   - [-] Make schematic of all blocks [2/3]:
+   - [X] Make schematic of all blocks [3/3]:
      - [X] Power supply
-     - [ ] Nixie tube control block
+     - [X] Nixie tube control block
      - [X] Main control block
 ** TODO Make PCB using gEDA PCB [0/3]
    - [ ] Learn how to use gEDA PCB
