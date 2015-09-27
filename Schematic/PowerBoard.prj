@@ -1,0 +1,3 @@
+schematics ./PowerBoard/PowerBoard.sch
+output-name ./PowerBoard/PowerBoard
+elements-dir ./Pcb_Sym
