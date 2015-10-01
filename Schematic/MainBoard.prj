@@ -1,0 +1,3 @@
+schematics ./MainBoard/MainBoard.sch
+output-name ./MainBoard/MainBoard
+elements-dir ./Pcb_Sym
