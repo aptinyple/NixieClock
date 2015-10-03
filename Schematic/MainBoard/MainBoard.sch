@@ -52,6 +52,8 @@ T 1300 7200 5 10 0 0 90 0 1
 symversion=0.1
 T 800 6900 5 10 1 1 0 0 1
 value=32.768 kHz
+T 2000 7000 5 10 0 1 0 0 1
+footprint=CRYSTAL 300
 }
 C 1600 6600 1 270 0 battery-1.sym
 {
@@ -63,6 +65,8 @@ T 2900 6300 5 10 0 0 270 0 1
 symversion=0.1
 T 1500 6200 5 10 1 1 0 0 1
 value=3V
+T 1600 6600 5 10 0 1 0 0 1
+footprint=battery
 }
 N 1800 6600 2200 6600 4
 N 2000 6000 2000 6200 4
@@ -74,6 +78,8 @@ T 4600 7300 5 10 1 1 180 0 1
 refdes=R2
 T 4300 7000 5 10 1 1 0 0 1
 value=10k
+T 4800 6700 5 10 0 1 0 0 1
+footprint=R025
 }
 C 5400 6700 1 90 0 resistor-1.sym
 {
@@ -83,6 +89,8 @@ T 5200 7300 5 10 1 1 180 0 1
 refdes=R3
 T 4900 7000 5 10 1 1 0 0 1
 value=10k
+T 5400 6700 5 10 0 1 0 0 1
+footprint=R025
 }
 N 4700 6700 4700 6600 4
 C 12700 7100 1 90 0 resistor-1.sym
@@ -93,6 +101,8 @@ T 12400 7900 5 10 1 1 180 0 1
 refdes=R1
 T 12400 7700 5 10 1 1 180 0 1
 value=10k
+T 12700 7100 5 10 0 1 0 0 1
+footprint=R025
 }
 C 5800 9200 1 90 0 capacitor-1.sym
 {
@@ -104,6 +114,8 @@ T 4900 9400 5 10 0 0 90 0 1
 symversion=0.1
 T 5700 9700 5 10 1 1 0 0 1
 value=100n
+T 5800 9200 5 10 0 1 0 0 1
+footprint=LCap
 }
 C 5400 9200 1 90 0 capacitor-1.sym
 {
@@ -115,6 +127,8 @@ T 4500 9400 5 10 0 0 90 0 1
 symversion=0.1
 T 4800 9700 5 10 1 1 0 0 1
 value=47u
+T 5400 9200 5 10 0 1 0 0 1
+footprint=LCap
 }
 N 5200 9900 5600 9900 4
 N 5200 9200 5600 9200 4
@@ -129,6 +143,8 @@ T 11900 6600 5 10 0 0 90 0 1
 symversion=0.1
 T 12500 6400 5 10 1 1 180 0 1
 value=100u
+T 12800 6400 5 10 0 1 0 0 1
+footprint=LCap
 }
 C 12700 7100 1 0 0 button-1.sym
 {
@@ -138,6 +154,8 @@ T 13100 7300 5 10 1 1 0 0 1
 refdes=SW1
 T 12900 7800 5 10 0 0 0 0 1
 symversion=0.1
+T 12700 7100 5 10 0 1 0 0 1
+footprint=R025
 }
 C 12500 6100 1 0 0 gnd-1.sym
 C 13800 7000 1 90 0 gnd-1.sym
@@ -157,6 +175,8 @@ T 10600 5300 5 10 0 0 0 0 1
 symversion=0.1
 T 10900 4700 5 10 1 1 0 0 1
 value=100n
+T 10400 4400 5 10 0 1 0 0 1
+footprint=LCap
 }
 C 10400 3900 1 0 0 capacitor-1.sym
 {
@@ -168,6 +188,8 @@ T 10600 4800 5 10 0 0 0 0 1
 symversion=0.1
 T 10900 4200 5 10 1 1 0 0 1
 value=100n
+T 10400 3900 5 10 0 1 0 0 1
+footprint=LCap
 }
 C 7800 3300 1 0 0 ATmega8-1.sym
 {
@@ -175,6 +197,8 @@ T 10100 7900 5 10 1 1 0 6 1
 refdes=U2
 T 7900 8900 5 10 0 0 0 0 1
 device=ATmega8
+T 7800 3300 5 10 0 1 0 0 1
+footprint=DIP28
 }
 C 11400 4000 1 90 0 gnd-1.sym
 C 11400 4500 1 90 0 gnd-1.sym
@@ -204,6 +228,8 @@ T 7000 3700 5 10 0 0 90 0 1
 symversion=0.1
 T 7300 3300 5 10 1 1 0 0 1
 value=8MHz
+T 7700 3500 5 10 0 1 0 0 1
+footprint=CRYSTAL 300
 }
 C 6800 3300 1 0 0 capacitor-1.sym
 {
@@ -215,6 +241,8 @@ T 7000 4200 5 10 0 0 0 0 1
 symversion=0.1
 T 6800 3100 5 10 1 1 0 0 1
 value=22p
+T 6800 3300 5 10 0 1 0 0 1
+footprint=LCap
 }
 C 6800 3700 1 0 0 capacitor-1.sym
 {
@@ -226,6 +254,8 @@ T 7000 4600 5 10 0 0 0 0 1
 symversion=0.1
 T 7200 4000 5 10 1 1 0 0 1
 value=22p
+T 6800 3700 5 10 0 1 0 0 1
+footprint=LCap
 }
 C 6400 3800 1 270 0 gnd-1.sym
 N 6800 3500 6800 3900 4
@@ -312,6 +342,8 @@ T 3800 4100 5 10 1 1 0 0 1
 refdes=J4
 T 3900 7650 5 10 0 0 0 6 1
 device=CONNECTOR_5x2
+T 4200 2800 5 10 0 1 0 0 1
+footprint=CONNECTOR 5 2
 }
 N 4200 3800 5900 3800 4
 {
@@ -347,6 +379,8 @@ T 3800 5500 5 10 1 1 0 0 1
 refdes=J3
 T 3900 6050 5 10 0 0 0 6 1
 device=CONNECTOR_3
+T 4200 4600 5 10 0 1 0 0 1
+footprint=connector_3x1
 }
 T 4100 2600 9 10 1 0 0 6 1
 ISP Prog
@@ -365,6 +399,8 @@ T 13700 5800 5 10 1 1 0 6 1
 refdes=J2
 T 13200 6350 5 10 0 0 0 0 1
 device=CONNECTOR_14
+T 12900 2700 5 10 0 1 0 0 1
+footprint=CONNECTOR 7 2
 }
 N 12900 5500 11800 5500 4
 {
@@ -432,6 +468,8 @@ T 10600 10000 5 10 1 1 0 6 1
 refdes=J1
 T 10500 10950 5 10 0 0 0 0 1
 device=CONNECTOR_2
+T 10200 9300 5 10 0 1 0 0 1
+footprint=connector_2x1
 }
 C 9900 9800 1 0 0 vcc-2.sym
 C 10000 9100 1 0 0 gnd-1.sym
