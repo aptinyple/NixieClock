@@ -380,7 +380,7 @@ refdes=J3
 T 3900 6050 5 10 0 0 0 6 1
 device=CONNECTOR_3
 T 4200 4600 5 10 0 1 0 0 1
-footprint=connector_3x1
+footprint=connector 3 1
 }
 T 4100 2600 9 10 1 0 0 6 1
 ISP Prog
